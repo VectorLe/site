@@ -1,0 +1,64 @@
+body, html {
+	background: black;
+	color: white;
+	font-family: Arial;
+	max-width: 700px;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 40px;
+}
+h2 {
+	font-size: 30px;
+}
+.container {
+	background: #1d2021;
+	border-radius: 15px;
+	border: 1px solid black;
+	margin: 0 0 20px 0;
+	padding: 10px 20px;
+	animation: colorChange 30s infinite;
+}
+a {
+	color: springgreen;
+	text-decoration: none;
+}
+a:hover {
+	color: salmon;
+	transition: 0.5s;
+}
+ul{
+	padding: 0;
+	list-style: square inside;
+}
+ul ul {
+	border: none;
+}
+li {
+	line-height: 1.5;
+}
+table {
+	background: #1d2021;
+	border-collapse: collapse;
+	border-radius: 5px;
+  	width: 100%;
+}
+td, th {
+ 	border: 1px solid springgreen;
+  	text-align: left;
+  	padding: 10px;
+}
+@keyframes colorChange{
+	0%{
+		border-color: magenta;
+	}
+	33%{
+		border-color: cyan;
+	}
+	66%{
+		border-color: yellow;
+	}
+	100%{
+		border-color: magenta;
+	}
+}
