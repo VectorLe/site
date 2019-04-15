@@ -20,8 +20,9 @@ h2 {
 	animation: colorChange 30s infinite;
 }
 a {
-	color: springgreen;
+    color: springgreen;
 	text-decoration: none;
+    outline: 0;
 }
 a:hover {
 	color: salmon;
